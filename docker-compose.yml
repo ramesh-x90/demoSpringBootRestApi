@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=my-secret-pw
+      - MYSQL_DATABASE=demoDB
+    ports:
+      - 3306:3306
+    volumes:
+      - ./DB/:/var/lib/mysql
+    container_name: demoMysqlServer
