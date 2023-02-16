@@ -1,2 +1,2 @@
 # demoSpringBootRestApi
-Demo RESTFULL api for Spring-Booot
+Demo RESTFULL api using Spring-Boot
